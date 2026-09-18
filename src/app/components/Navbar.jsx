@@ -1,7 +1,12 @@
+"use client"
 import Link from 'next/link';
-import React from 'react';
+import React, { use, useContext } from 'react';
+import { UserContext } from '../contexts/UserContext';
 
 const Navbar = () => {
+
+  const user = useContext(UserContext)
+  console.log('From context in Navbar',user);
 
     const links  =
     <>
@@ -10,9 +15,7 @@ const Navbar = () => {
     <li><Link href ="/products">Products</Link></li>
     <li><Link href ="/books">Books</Link></li>
     <li><Link href ="/dashboaed">Dashboard</Link></li>
-    {/* <li><Link href ="/showcase">Showcase</Link></li> */}
-    {/* <li><Link href ="/about">About</Link></li> */}
-    {/* <li><Link href ="/about/developers">Developers</Link></li> */}
+   
     </>
     return (
         <div className="navbar bg-base-100 shadow-sm">

@@ -83,3 +83,23 @@ export default PostPage;
     </div>
   </div>
 </div>
+
+
+// npx json-server --watch db.json --port 5000
+
+
+
+// User contest/ Context Api
+
+import React, { createContext } from 'react';
+
+export const UserContext = createContext(null);
+const Userprovider = ({children}) => {
+    return (
+        <UserContext.Provider value ="tomato">
+            {children}
+        </UserContext.Provider>
+    );
+};
+
+export default Userprovider;
