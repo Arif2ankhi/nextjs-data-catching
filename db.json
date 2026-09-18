@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "title": "Wireless new  Headphones",
+      "title": "Wireless Bluetooth Headphones",
       "price": 59.99,
       "description": "Comfortable wireless headphones with clear sound and long battery life.",
       "category": "electronics",
@@ -70,6 +70,138 @@
       "rating": {
         "rate": 4.6,
         "count": 187
+      }
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "price": 12.99,
+      "description": "A young shepherd follows his dreams and discovers the meaning of life.",
+      "category": "fiction",
+      "image": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e",
+      "rating": {
+        "rate": 4.7,
+        "count": 320
+      }
+    },
+    {
+      "id": 2,
+      "title": "Atomic Habits Kingdom ",
+      "author": "James Clear",
+      "price": 16.99,
+      "description": "A practical guide to building good habits and breaking bad ones.",
+      "category": "self-help",
+      "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c",
+      "rating": {
+        "rate": 4.8,
+        "count": 450
+      }
+    },
+    {
+      "id": 3,
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert T. Kiyosaki",
+      "price": 14.99,
+      "description": "A personal finance book about money, investing and financial independence.",
+      "category": "finance",
+      "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f",
+      "rating": {
+        "rate": 4.5,
+        "count": 280
+      }
+    },
+    {
+      "id": 4,
+      "title": "The Psychology of Money",
+      "author": "Morgan Housel",
+      "price": 15.99,
+      "description": "Explores how emotions and behaviour influence financial decisions.",
+      "category": "finance",
+      "image": "https://images.unsplash.com/photo-1553729459-efe14ef6055d",
+      "rating": {
+        "rate": 4.6,
+        "count": 375
+      }
+    },
+    {
+      "id": 5,
+      "title": "Harry Potter and the Philosopher's Stone",
+      "author": "J.K. Rowling",
+      "price": 10.99,
+      "description": "A young wizard begins his magical journey at Hogwarts School.",
+      "category": "fantasy",
+      "image": "https://images.unsplash.com/photo-1621351183012-e2f9972dd9bf",
+      "rating": {
+        "rate": 4.9,
+        "count": 520
+      }
+    },
+    {
+      "id": 6,
+      "title": "The Power of Now",
+      "author": "Eckhart Tolle",
+      "price": 13.99,
+      "description": "A guide to mindfulness and living more fully in the present moment.",
+      "category": "personal-development",
+      "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d",
+      "rating": {
+        "rate": 4.4,
+        "count": 215
+      }
+    },
+    {
+      "id": 7,
+      "title": "Think and Grow Rich",
+      "author": "Napoleon Hill",
+      "price": 11.99,
+      "description": "Classic principles for developing a success-oriented mindset.",
+      "category": "self-help",
+      "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+      "rating": {
+        "rate": 4.3,
+        "count": 190
+      }
+    },
+    {
+      "id": 8,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "price": 14.49,
+      "description": "Bilbo Baggins embarks on an unexpected adventure with a group of dwarves.",
+      "category": "fantasy",
+      "image": "https://images.unsplash.com/photo-1519682337058-a94d519337bc",
+      "rating": {
+        "rate": 4.8,
+        "count": 410
+      }
+    },
+    {
+      "id": 9,
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "price": 29.99,
+      "description": "A practical guide to writing readable, maintainable and professional software.",
+      "category": "programming",
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4",
+      "rating": {
+        "rate": 4.7,
+        "count": 340
+      }
+    },
+    {
+      "id": 10,
+      "title": "The 7 Habits of Highly Effective People",
+      "author": "Stephen R. Covey",
+      "price": 18.99,
+      "description": "A guide to developing effective habits for personal and professional success.",
+      "category": "self-help",
+      "image": "https://images.unsplash.com/photo-1516979187457-637abb4f9353",
+      "rating": {
+        "rate": 4.6,
+        "count": 295
       }
     }
   ]
