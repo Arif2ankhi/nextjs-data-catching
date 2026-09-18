@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Wireless new  Headphones",
+      "price": 59.99,
+      "description": "Comfortable wireless headphones with clear sound and long battery life.",
+      "category": "electronics",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+      "rating": {
+        "rate": 4.5,
+        "count": 120
+      }
+    },
+    {
+      "id": 2,
+      "title": "Smart Watch",
+      "price": 89.99,
+      "description": "Modern smartwatch with fitness tracking, notifications and heart-rate monitoring.",
+      "category": "electronics",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
+      "rating": {
+        "rate": 4.3,
+        "count": 95
+      }
+    },
+    {
+      "id": 3,
+      "title": "Running Shoes",
+      "price": 74.99,
+      "description": "Lightweight and comfortable running shoes designed for everyday exercise.",
+      "category": "footwear",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+      "rating": {
+        "rate": 4.7,
+        "count": 210
+      }
+    },
+    {
+      "id": 4,
+      "title": "Leather Backpack",
+      "price": 49.99,
+      "description": "Stylish and durable backpack suitable for work, university and travel.",
+      "category": "bags",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62",
+      "rating": {
+        "rate": 4.4,
+        "count": 78
+      }
+    },
+    {
+      "id": 5,
+      "title": "Classic T-Shirt",
+      "price": 24.99,
+      "description": "Soft cotton t-shirt with a comfortable fit for everyday wear.",
+      "category": "clothing",
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
+      "rating": {
+        "rate": 4.2,
+        "count": 145
+      }
+    },
+    {
+      "id": 6,
+      "title": "Coffee Maker",
+      "price": 64.99,
+      "description": "Compact coffee maker that prepares fresh and delicious coffee at home.",
+      "category": "home",
+      "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6",
+      "rating": {
+        "rate": 4.6,
+        "count": 187
+      }
+    }
+  ]
+}
