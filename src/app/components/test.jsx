@@ -91,6 +91,8 @@ export default PostPage;
 
 // User contest/ Context Api
 
+// src/app/context/UserContext
+
 import React, { createContext } from 'react';
 
 export const UserContext = createContext(null);
@@ -103,3 +105,20 @@ const Userprovider = ({children}) => {
 };
 
 export default Userprovider;
+
+// User hook
+
+// src/app/hooks/useUser
+
+"use client";
+
+import { useContext } from "react"
+import { UserContext } from "../contexts/UserContext"
+
+const  useUser = ()=>{
+    const user = useContext(UserContext);
+    return user;
+
+}
+
+export default useUser;

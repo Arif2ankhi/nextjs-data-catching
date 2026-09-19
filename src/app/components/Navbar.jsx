@@ -1,11 +1,13 @@
 "use client"
 import Link from 'next/link';
-import React, { use, useContext } from 'react';
-import { UserContext } from '../contexts/UserContext';
+import React from 'react';
+import useUser from '../hooks/useUser';
+// import React, { use, useContext } from 'react';
+// import { UserContext } from '../contexts/UserContext';
 
 const Navbar = () => {
 
-  const user = useContext(UserContext)
+  const user = useUser
   console.log('From context in Navbar',user);
 
     const links  =

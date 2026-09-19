@@ -1,10 +1,10 @@
 "use client"
-import React, { createContext } from 'react';
+import  { createContext } from 'react';
 
 export const UserContext = createContext(null);
 const Userprovider = ({children}) => {
     return (
-        <UserContext.Provider value ="tomato">
+        <UserContext.Provider value ="Alhamdulillah for everything">
             {children}
         </UserContext.Provider>
     );

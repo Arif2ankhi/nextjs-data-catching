@@ -1,7 +1,11 @@
+'use client'
 import React from 'react';
+import useUser from '../hooks/useUser';
 
 const ProductCard = ({product}) => {
 const {id, image, title, description, price}= product;
+const user = useUser();
+console.log('user in context in product card', user);
 
     return (
       <div className="card bg-base-100 shadow-sm">
